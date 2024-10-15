@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Bliss Courses</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f1;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #66a182;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .courses h2 {
+            text-align: center;
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .course-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .course-item {
+            background-color: white;
+            border: 2px solid #dedede;
+            border-radius: 10px;
+            width: 220px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .course-item:hover {
+            transform: scale(1.05);
+        }
+
+        .course-item img {
+            width: 100%;
+            height: auto; 
+            object-fit: contain; 
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .course-item h3 {
+            font-size: 20px;
+            color: #66a182;
+            margin-bottom: 10px;
+        }
+
+        .course-item p {
+            font-size: 14px;
+            color: #555;
+            flex-grow: 1; 
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yogakarta</h1>
+        <p>Find Your Inner Peace with Our Expert-Led Yoga Courses</p>
+    </header>
+
+    <section class="courses">
+        <h2>Our Yoga Courses</h2>
+        <div class="course-grid">
+            <div class="course-item">
+                <img src="beginner.png" alt="Beginner Yoga Course">
+                <h3>Beginner Yoga</h3>
+                <p>Perfect for newcomers, this course covers foundational poses, breathing techniques, and helps you build flexibility and strength.</p>
+            </div>
+            <div class="course-item">
+                <img src="vinia.jpg" alt="Vinyasa Flow Course">
+                <h3>Vinyasa Flow</h3>
+                <p>A dynamic flow sequence that links breath with movement. Great for those looking to improve endurance and mental focus.</p>
+            </div>
+            <div class="course-item">
+                <img src="hatha.png" alt="Hatha Yoga Course">
+                <h3>Hatha Yoga</h3>
+                <p>Hatha is perfect for deep stretching, slow movements, and relaxation. This course focuses on balance between mind and body.</p>
+            </div>
+            <div class="course-item">
+                <img src="power.jpg" alt="Power Yoga Course">
+                <h3>Power Yoga</h3>
+                <p>A more intense practice aimed at building strength, stamina, and flexibility. Designed for intermediate to advanced yogis.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; M.Rifqy Febryantoni 2024</p>
+    </footer>
+</body>
+</html>
